@@ -7,19 +7,19 @@
 
 # Prepare train and mask data
 ## 1 convert to png
-$ 'siim_convert_to_png.ipynb'
+$ run `siim_convert_to_png.ipynb`
 
 ## 2 convert to mask png
-$ 'siim_convert_to_mask_png.ipynb'
+$ run `siim_convert_to_mask_png.ipynb`
 
 ## 3 generate folds
-see 'train_study_folds_washen_v2.csv'.
+see `train_study_folds_washen_v2.csv` file.
 
 # Train
-$ `bash dist_siim_train.sh` 
+$ run `bash dist_siim_train.sh` 
 
 # Valid
-$ siim_valid.ipynb
+$ run `siim_valid.ipynb`
 
 # Predict
-$ siim_predict.ipynb
+$ run `siim_predict.ipynb`
