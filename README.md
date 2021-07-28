@@ -1,9 +1,9 @@
 # pl-siim-covid19-detection
 
 # Train environment
-1.pytorch 1.7.1
+1.pytorch==1.7.1
 
-2.pytorch-lightning 1.3.3
+2.pytorch-lightning==1.3.3
 
 # Prepare train and mask data
 ## 1 convert to png
